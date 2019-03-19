@@ -8656,8 +8656,9 @@ the `--severity' option to Perl Critic."
 (flycheck-def-option-var flycheck-perlcritic-theme nil perl-perlcritic
   "The theme expression for Perl Critic.
 
-The value of this variable is passed as the `--theme' option to `Perl::Critic'.
-See the documentation of `Perl::Critic' for details"
+The value of this variable is passed as the `--theme' option to
+`Perl::Critic'.  See the documentation of `Perl::Critic' for
+details."
   :type '(string :tag "Theme expression")
   :safe #'stringp
   :package-version '(flycheck . "32-csv"))
